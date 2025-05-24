@@ -35,7 +35,7 @@
 
 ## 📂 Project Structure
 
-gatehub/
+src/
 ├── client/ # Frontend (React + Three.js)
 │ ├── components/ # Reusable UI components
 │ ├── models/ # 3D models (.gltf/.glb)
@@ -50,8 +50,8 @@ gatehub/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-```bash
+## 1. Clone the repository
+``bash
 git clone https://github.com/your-username/gatehub.git
 cd gatehub
 2. Install dependencies
@@ -77,7 +77,9 @@ npm start
 cd ../client
 npm run dev
 
-✨ Use Cases
+----
+
+## ✨ Use Cases
 Personal developer portfolio
 
 Digital artist showcase
