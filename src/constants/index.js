@@ -16,6 +16,9 @@ import {
   figma,
   docker,
   zidio,
+  ibm,
+  sam,
+  image,
   MediGuide,
   RideOn,
   AI_resume_parser,
@@ -113,14 +116,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
+    title: "Web Developer Intern",
     company_name: "Zidio Development",
     icon: zidio,
     iconBg: "#383E56",
     date: "April 2025 - July 2025",
     points: [
       "Real-World Learning: Some interns appreciated the opportunity to apply their skills in practical settings, gaining exposure to real-world projects and tools.",
-      "Supportive Environment: A few reviews mention a collaborative work culture with supportive teams, facilitating learning and development.",
+    ],
+  },
+  {
+    title: "AI and Full Stack Development Intern",
+    company_name: "IBM SkillsBuild Virtual Internship",
+    icon: ibm,
+    iconBg: "#383E56",
+    date: "July 2025 - October 2025",
+    points: [
+      "Developed interactive UIs with React.js, integrated Supabase authentication, and optimized dashboards.",
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company_name: "Labmentix",
+    icon: image,
+    iconBg: "#383E56",
+    date: "June 2025 - July 2025",
+    points: [
+      "Built AI-driven chatbots using Python, Flask, and IBM Watson APIs for real-time analytics.",
+    ],
+  },
+  {
+    title: " AI Trainee",
+    company_name: "Samsung Innovation Campus",
+    icon: sam,
+    iconBg: "#383E56",
+    date: "September 2025 - November 2025",
+    points: [
+      "Trained in Full Stack Development, AI, IoT, and Cloud Technologies.",
     ],
   },
 ];
@@ -171,7 +203,8 @@ const projects = [
       },
     ],
     image: MediGuide,
-    source_code_link: "https://github.com/Akshatcodegenics/MediGuide_",
+    source_code_link:
+      "https://github.com/Akshatcodegenics/MediGuide-Hospital-Finder",
   },
   {
     name: "RideOn",
@@ -192,12 +225,13 @@ const projects = [
       },
     ],
     image: RideOn,
-    source_code_link: "https://github.com/Akshatcodegenics/RideOn",
+    source_code_link:
+      "https://github.com/Akshatcodegenics/rider-ai-automated-ride",
   },
   {
-    name: "AI Resume Parser",
+    name: "Excel Analytics",
     description:
-      "Developed a Python-based AI tool to automatically extract and shortlist resumes based on key skill points.",
+      "Developed an AI-driven analytics platform that processes Excel files, generates instant insights, and visualizes data with dynamic 2D & 3D charts.",
     tags: [
       {
         name: "nextjs",
@@ -213,7 +247,7 @@ const projects = [
       },
     ],
     image: AI_resume_parser,
-    source_code_link: "https://github.com/Akshatcodegenics/resume-parser",
+    source_code_link: "https://github.com/Akshatcodegenics/excel-graph-studio",
   },
 ];
 
